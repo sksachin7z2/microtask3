@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="public/stat/style.css">
+    <title>Microtask3</title>
+</head>
+<body>
+    <div class="container">
+        <div>
+            <div class="heading">
+                <h1>Welcome, This microservice is build for MicroTask 3</h1>
+            </div>
+            <div class="card">
+                <h1>ABOUT</h1>
+                <h3>This microservice provide location address for given latitude and longitude</h3>
+            </div>
+            <div>
+                <h1>Reverse Location API</h1>
+                <div class="card my">
+                    <h3>To get the address</h3>
+                    <div>
+                        <h4>Method: GET</h4>
+                        <h3>Endpoint: '/api/location/getAdd?lat=[latitude]&lon=[longitude]'</h3>
+                    </div>
+                   
+                </div>
+               
+       
+    </div>
+        </div>
+    </div>
+    <!-- <script src="/public/stat/script.js"></script> -->
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.2.1/axios.min.js" integrity="sha512-zJYu9ICC+mWF3+dJ4QC34N9RA0OVS1XtPbnf6oXlvGrLGNB8egsEzu/5wgG90I61hOOKvcywoLzwNmPqGAdATA==" crossorigin="anonymous" referrerpolicy="no-referrer">
+      
+
+  
+    </script>
+    <script>
+       async function handleRequest() {
+          
+  const url='https://pnxkhg.deta.dev/api/vis/count';
+          const res= await  axios.post(url, {host: window.location.origin})
+          const response=res.data;
+            const result=response.detail.visitors;
+                console.log(result)
+            document.getElementById('count').innerHTML=result;
+        }
+        window.addEventListener('load',handleRequest)
+     </script>    -->
+</body>
+</html>
