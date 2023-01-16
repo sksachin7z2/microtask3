@@ -15,7 +15,7 @@ app.get('/',async(req,res)=>{
 
 app.use('/api/location',require('./api/location'));
 
-app.listen(port, () => {
-  console.log(`server listening at http://localhost:${port}`)
-})
-// module.exports=app;
+// app.listen(port, () => {
+//   console.log(`server listening at http://localhost:${port}`)
+// })
+module.exports=app;
